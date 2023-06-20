@@ -1,0 +1,152 @@
+*{
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.navbar{
+	height: 80px;
+	color: white;
+	font-family: 'Calibri';
+	padding: 3px;
+	padding-right: 30px;
+	background:  #0a0c10;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 1px 20px #545a66;
+	margin-bottom: 3px;
+}
+
+.logo{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	width: 200px;
+}
+
+.signup{
+	font-size: 16px;
+	color: white;
+	width: 95px;
+	background: #3882F6;
+	border-style: none;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.content-one-left{
+	flex: 1;
+	display: flex;
+	justify-self: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 10px;
+	
+}
+
+.content-one-title{
+	font-size: 48px;
+}
+
+.content-one-desc{
+	font-size: 18px;
+}
+
+.navbar-list{
+	padding: 10px;
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+.content-one-right{
+	display: flex;
+	align-items: center;
+}
+
+.navbar-list > li {
+	font-size: 20px;
+	border-radius: 15%;
+	text-align: center;
+	width: 50px;
+}
+
+.content-container{
+	color: white;
+	background: #14191f;
+	height: 100vh;
+}
+
+.content-container h1{
+	font-family: 'Roboto', arial;
+}
+
+.image{
+	border-radius: 3%;
+	width: 400px;
+	box-shadow: 3px 8px 10px black;
+}
+
+.content{
+	padding: 100px 100px;
+}
+
+.content.one{
+	gap: 30px;
+	display: flex;
+	flex-grow: row;
+	justify-content: center;
+	align-items: center;
+	background: #14191f;
+	height: 650px;
+}
+
+.content.two{
+	margin: 0;
+	padding: 100px;
+	color: black;
+	background: floralwhite;
+	height: fit-content;
+}
+.information{
+	text-align: center;
+	padding: 20px;
+}
+
+.team-container img{
+	width: 200px;
+	height: 200px;
+	border-radius: 20%;
+	border: 10px solid #3882F6;
+	box-shadow: 10px 15px 30px #3882F6;
+}
+
+.team-container{
+	display: flex;
+	flex-direction: row;
+	gap: 80px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.container{
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 35px;
+}
+
+.container > h3{
+	text-align: center;
+	width: 100px;
+	background: #3882F6;
+	color: white;
+	border-radius: 8px;
+}
