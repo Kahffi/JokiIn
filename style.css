@@ -258,3 +258,7 @@ button:hover {
 	color: white;
 	background:  #0a0c10;
 }
+
+.content-one-title .font-logo{
+	font-size: 48px;
+}
