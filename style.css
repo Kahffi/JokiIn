@@ -259,6 +259,23 @@ button:hover {
 	background:  #0a0c10;
 }
 
+.credit img{
+	width: 600px;
+}
+
+.credit{
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.credit h1{
+	color: black;
+}
+
 .content-one-title .font-logo{
 	font-size: 48px;
 }
