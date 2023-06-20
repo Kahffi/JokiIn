@@ -2,11 +2,17 @@
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto';
+	font-size: 18px;
 }
 
 a{
 	color: white;
 	text-decoration: none;
+}
+
+ul{
+	list-style: none;
 }
 
 .navbar{
@@ -24,6 +30,7 @@ a{
 }
 
 .logo{
+	font-size: 36px;
 	font-family: 'Permanent Marker', cursive;
 	text-align: center;
 	width: 200px;
@@ -46,7 +53,6 @@ a{
 	justify-content: flex-start;
 	flex-direction: column;
 	gap: 10px;
-	
 }
 
 .content-one-title{
@@ -114,6 +120,8 @@ a{
 	height: fit-content;
 }
 .information{
+	font-size: 30px;
+	font-weight: bolder;
 	text-align: center;
 	padding: 20px;
 }
@@ -127,9 +135,10 @@ a{
 }
 
 .team-container{
+	flex-wrap: wrap;
 	display: flex;
 	flex-direction: row;
-	gap: 80px;
+	gap: 70px;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
@@ -149,4 +158,103 @@ a{
 	background: #3882F6;
 	color: white;
 	border-radius: 8px;
+}
+
+.content.three{
+	background: #E5E7EB;
+	color: #1F2937;
+}
+
+.motivation-container{
+	gap: 20px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.motivation{
+	font-size: 36px;
+	font-style: italic;
+
+}
+
+.motivator{
+	align-self: flex-end;
+	font-size: 30px;
+}
+
+.notif-container{
+	border-radius: 10px;
+	background: #3882F6;
+	padding: 30px 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.button button{
+	font-weight: 900;
+	background: #3882F6;
+	border: 2px solid white;
+	border-radius: 15px;
+	color: white;
+	padding: 5px 20px;
+	width: 140px;
+}
+
+.messages{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.font-logo{
+	font-family: 'Permanent Marker', cursive;
+}
+
+button:hover {
+	transform: scale(1.2);
+}
+
+.link-title{
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	font-family: 'Page One';
+	color: black;
+}
+
+.content.five{
+	background: whitesmoke;
+}
+
+.link-container img{
+	width: 80px;
+}
+
+.links{
+	box-shadow: 5px 10px 10px black;
+	border-radius: 50px;
+	background: floralwhite;
+	padding: 50px;
+	justify-content: center;
+	display: flex;
+	gap: 20%;
+}
+
+.footer img{
+	width: 15px;
+	background: white;
+	border-radius: 100%;
+}
+
+.footer{
+	background: ;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	background:  #0a0c10;
 }
